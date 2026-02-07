@@ -1,108 +1,110 @@
-# Privacy Policy for Proventus
+# Privacy Policy for Workout Progress Tracker
 
-**Last Updated: January 24, 2026**
+**Last updated:** February 7, 2026
 
-## Introduction
+## 1. Overview
 
-Proventus is a fitness tracking application designed to help users log workouts, track progress, and achieve their fitness goals. We are committed to protecting your privacy and being transparent about how we collect, use, and share your data.
+Workout Progress Tracker is built to work without account creation or onboarding.
+You can create your own program and start tracking immediately.
 
-## Data We Collect
+This policy explains what data is processed, why it is processed, and what choices you have.
 
-### Information You Provide
-- **Account Information**: Email address, name (optional), and profile picture (optional) when you create an account
-- **Workout Data**: Exercise logs, sets, reps, weights, duration, and personal records
-- **Health Data**: With your explicit consent, workout information may be synced to Apple HealthKit
-- **User Preferences**: Settings, units of measurement, and app customization choices
+## 2. Data We Process
 
-### Automatically Collected Information
-- **Usage Data**: App usage patterns, feature interactions, and performance analytics
-- **Device Information**: Device type, operating system version, and unique device identifiers
-- **Technical Data**: Crash reports and diagnostic information to improve app performance
+### 2.1 Data stored on your device
 
-## How We Use Your Data
+- Workout logs (exercises, sets, reps, weight, rest, notes)
+- Program and exercise definitions (including custom content)
+- App preferences (units, timer settings, other app configuration)
 
-### Primary Purposes
-- **Core Functionality**: To provide workout tracking, progress analysis, and personalized fitness insights
-- **Account Management**: To manage your account and provide app features
-- **Service Improvement**: To analyze usage patterns and improve app performance and user experience
-- **Customer Support**: To respond to your questions and provide technical support
+### 2.2 Optional data integrations
 
-### Data Processing
-- **Local Storage**: Most of your workout data is stored locally on your device using SwiftData
-- **Cloud Sync**: With your permission, workout data may be synced to our cloud servers for backup and cross-device access
-- **Analytics**: Anonymous usage data may be analyzed to improve app features and performance
+- Apple Health / HealthKit data (only if you grant permission)
+- iCloud backup/sync data (through your Apple account and iCloud settings)
 
-## Data Sharing and Disclosure
+### 2.3 Subscription data
 
-We do not sell, rent, or trade your personal information. We may share your data only in the following circumstances:
+- Purchase and entitlement status is processed through RevenueCat and Apple in-app purchases.
 
-- **Service Providers**: With trusted third-party service providers who help us operate the app (e.g., cloud hosting, analytics)
-- **Legal Requirements**: When required by law, court order, or government regulation
-- **Business Transfers**: In connection with a merger, acquisition, or sale of assets
+### 2.4 Data we do not currently collect by default
 
-## HealthKit Integration
+- No ad tracking identifiers
+- No third-party advertising profiles
+- No analytics or crash logging SDK enabled by default
 
-Proventus may integrate with Apple HealthKit to:
-- **Read Data**: Import workout information and health metrics with your explicit consent
-- **Write Data**: Export completed workouts to Apple Health with your permission
-- **Privacy**: HealthKit data is encrypted and stored securely by Apple
-- **Control**: You have full control over which HealthKit data the app can access
+## 3. How We Use Data
 
-HealthKit data is never shared with third parties or used for advertising purposes.
+We use data only to run product features:
 
-## Data Security
+- Logging and displaying your workouts
+- Showing progress charts, PRs, and suggestions
+- Managing subscriptions and Pro feature access
+- Sync/backup if you choose to enable it
 
-We implement appropriate security measures to protect your data:
-- **Encryption**: Data is encrypted both in transit and at rest
-- **Access Controls**: Strict access controls limit who can access your data
-- **Regular Audits**: We regularly review our security practices
-- **Compliance**: We comply with applicable data protection laws
+## 4. Account Requirement
 
-## Data Retention
+- The app does **not** require account creation for normal usage.
+- Consumer login is not required for tracking, planning, or subscription usage.
+- Admin authentication is used only for internal built-in content management.
 
-We retain your data only as long as necessary to:
-- Provide our services
-- Comply with legal obligations
-- Resolve disputes
-- Fulfill legitimate business purposes
+## 5. Data Sharing
 
-You can request deletion of your account and associated data at any time.
+We do not sell your personal data.
 
-## Your Rights and Choices
+Data may be shared only with service providers needed to run app features:
 
-You have the right to:
-- **Access**: Request access to your personal data
-- **Correction**: Update or correct inaccurate information
-- **Deletion**: Request deletion of your account and data
-- **Portability**: Request a copy of your data in a portable format
-- **Opt-out**: Disable certain data collection and features
+- **Apple** (in-app purchases, iCloud, HealthKit framework integrations)
+- **RevenueCat** (subscription entitlement handling)
+- **Convex** (admin/built-in content backend operations)
 
-## Children's Privacy
+We may also disclose data if required by law.
 
-Proventus is not intended for children under 13. We do not knowingly collect personal information from children under 13. If we become aware that we have collected such information, we will delete it promptly.
+## 6. HealthKit
 
-## International Data Transfers
+If enabled by you:
 
-Your data may be transferred to and processed in countries other than your own. We ensure appropriate safeguards are in place to protect your data in accordance with applicable data protection laws.
+- We may read and/or write workout-related HealthKit records.
+- Health data usage follows Apple's HealthKit rules.
+- Health data is never used for ads.
 
-## Changes to This Privacy Policy
+You can revoke Health permissions anytime in iOS Settings.
 
-We may update this privacy policy from time to time. We will notify you of any changes by:
-- Posting the new policy in the app
-- Sending you an email notification for significant changes
-- Updating the "Last Updated" date at the top of this policy
+## 7. Data Retention and Deletion
 
-## Contact Information
+- Local data remains on your device until you delete it or remove the app.
+- iCloud-backed data retention is controlled by your Apple account and iCloud settings.
+- Admin/account-related backend records, where applicable, are retained only as needed for service operation and legal obligations.
 
-If you have questions or concerns about this privacy policy or our data practices, please contact us:
+## 8. Security
 
-- **Email**: privacy@proventus.app
-- **Website**: https://proventus.app/privacy
+We apply reasonable safeguards including secure transport where applicable and platform security controls provided by iOS, iCloud, Apple in-app purchases, and integrated providers.
 
-## Effective Date
+## 9. Children's Privacy
 
-This privacy policy is effective as of January 24, 2026.
+This app is not directed to children under 13. We do not knowingly collect personal information from children under 13.
+
+## 10. International Users
+
+Depending on provider infrastructure, data may be processed in countries other than your own, with safeguards required by applicable law.
+
+## 11. Policy Updates
+
+We may update this policy from time to time. The updated version will be posted at the privacy policy URL and in this repository.
+
+## 12. Contact
+
+- Support email: `placeholder`
+- Website/support page: `placeholder`
 
 ---
 
-*This privacy policy is designed to comply with GDPR, CCPA, and other applicable privacy regulations. By using Proventus, you agree to the collection and use of information in accordance with this policy.*
+## GitHub Hosting Notes
+
+Host this file publicly on GitHub Pages or a public repository URL and use that URL in App Store Connect:
+
+- Privacy Policy URL
+- (Optional) Support URL
+
+Recommended path:
+
+- `docs/privacy-policy.md`
