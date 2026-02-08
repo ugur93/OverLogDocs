@@ -1,0 +1,9 @@
+title: Proventus
+url: ""
+baseurl: ""
+markdown: kramdown
+exclude:
+  - index.md
+  - product/index.md
+  - privacy/index.md
+  - terms/index.md

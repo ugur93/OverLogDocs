@@ -18,5 +18,6 @@ Proventus helps you:
 
 ## Legal
 
-- [Privacy Policy](/privacy/)
-- [Terms of Service](/terms/)
+- [Privacy Policy](../privacy/)
+- [Terms of Service](../terms/)
+- [Home](../)

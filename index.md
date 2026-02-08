@@ -4,9 +4,9 @@ Welcome to the official Proventus pages.
 
 ## Pages
 
-- [Product](/product/)
-- [Privacy Policy](/privacy/)
-- [Terms of Service](/terms/)
+- [Product](product/)
+- [Privacy Policy](privacy/)
+- [Terms of Service](terms/)
 
 ## About
 
