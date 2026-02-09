@@ -3,53 +3,152 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Proventus</title>
+    <title>Proventus - Workout Progress Tracker</title>
+    <meta
+      name="description"
+      content="Proventus is a modern workout tracker built for progressive overload. Log sets fast, track PRs, and see meaningful progress over time."
+    />
     <link rel="stylesheet" href="assets/styles.css" />
   </head>
   <body>
     <header class="site-header">
       <div class="container header-inner">
         <a class="brand" href="./">Proventus</a>
-        <nav class="nav">
+        <nav class="nav" aria-label="Primary">
           <a class="active" href="./">Home</a>
+          <a href="#features">Features</a>
+          <a href="#screens">Screens</a>
           <a href="product/">Product</a>
-          <a href="privacy/">Privacy</a>
-          <a href="terms/">Terms</a>
         </nav>
       </div>
     </header>
 
-    <main class="container">
-      <section class="hero">
-        <h1>Track workouts without friction.</h1>
-        <p>
-          Proventus helps you build programs, log training, and monitor progress with clean workflows and health integrations.
-        </p>
-        <div class="cta-row">
-          <a class="button primary" href="product/">Explore Product</a>
-          <a class="button ghost" href="privacy/">Read Privacy Policy</a>
+    <main>
+      <section class="container hero hero-split">
+        <div>
+          <p class="eyebrow">WORKOUT PROGRESSION, WITHOUT FRICTION</p>
+          <h1>Train hard. Log fast. Progress with data.</h1>
+          <p>
+            Proventus is built for progressive overload. No account required. Build your own plan,
+            track every set, monitor PRs, and use clear trends to decide what to lift next.
+          </p>
+          <div class="cta-row">
+            <a class="button primary" href="#screens">See Screens</a>
+            <a class="button ghost" href="product/">View Product Details</a>
+          </div>
+          <ul class="pill-row" aria-label="Highlights">
+            <li>No account needed</li>
+            <li>Fast set logging</li>
+            <li>Progressive overload focus</li>
+          </ul>
+        </div>
+        <div class="hero-panel" aria-hidden="true">
+          <div class="metric-card">
+            <p class="metric-label">Weekly Volume</p>
+            <p class="metric-value">+18%</p>
+          </div>
+          <div class="metric-card">
+            <p class="metric-label">Personal Records</p>
+            <p class="metric-value">4 New PRs</p>
+          </div>
+          <div class="metric-card">
+            <p class="metric-label">Session Consistency</p>
+            <p class="metric-value">5/5 This Week</p>
+          </div>
         </div>
       </section>
 
-      <section class="grid" aria-label="Site pages">
-        <article class="card">
-          <h2>Product</h2>
-          <p>Overview of capabilities, features, and app focus.</p>
-          <p><a href="product/">Open page</a></p>
-        </article>
-        <article class="card">
-          <h2>Privacy Policy</h2>
-          <p>How data is processed, retained, and shared.</p>
-          <p><a href="privacy/">Open page</a></p>
-        </article>
-        <article class="card">
-          <h2>Terms of Service</h2>
-          <p>Usage terms, subscriptions, disclaimers, and legal scope.</p>
-          <p><a href="terms/">Open page</a></p>
-        </article>
+      <section id="features" class="container section-block">
+        <div class="section-heading">
+          <p class="eyebrow">CORE FEATURES</p>
+          <h2>Everything needed for progressive overload</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="card feature-card">
+            <h3>Fast Workout Logging</h3>
+            <p>Log sets, reps, weight, and rest with minimal taps while training in real time.</p>
+          </article>
+          <article class="card feature-card">
+            <h3>Program Customization</h3>
+            <p>Create personalized weeks, days, and exercise structures that match your split.</p>
+          </article>
+          <article class="card feature-card">
+            <h3>PR and Trend Tracking</h3>
+            <p>Track personal records and view progress trends across sessions and time windows.</p>
+          </article>
+          <article class="card feature-card">
+            <h3>Advanced Set Logic</h3>
+            <p>Use rep ranges, AMRAP, set tags, and practical next-set guidance to progress intelligently.</p>
+          </article>
+          <article class="card feature-card">
+            <h3>Live Workout Tools</h3>
+            <p>Built-in timer, notifications, and live workout support keep sessions focused and consistent.</p>
+          </article>
+          <article class="card feature-card">
+            <h3>Optional Integrations</h3>
+            <p>Connect Apple Health and iCloud sync when needed while staying local-first by default.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="screens" class="container section-block">
+        <div class="section-heading">
+          <p class="eyebrow">APP PREVIEW</p>
+          <h2>Screenshot placeholders</h2>
+        </div>
+        <div class="screens-grid">
+          <article class="shot-card">
+            <div class="shot-frame">
+              <img
+                src="assets/screens/home-dashboard.png"
+                alt="Home dashboard showing workout summary and weekly status"
+                loading="lazy"
+              />
+            </div>
+            <h3>Home Dashboard</h3>
+            <p>Daily status, upcoming plan, and progression snapshot.</p>
+          </article>
+          <article class="shot-card">
+            <div class="shot-frame">
+              <img
+                src="assets/screens/workout-session.png"
+                alt="Workout session screen for fast set logging"
+                loading="lazy"
+              />
+            </div>
+            <h3>Live Logging</h3>
+            <p>Fast logging flow for weight, reps, rest, and set tags.</p>
+          </article>
+          <article class="shot-card">
+            <div class="shot-frame">
+              <img
+                src="assets/screens/progress-analytics.png"
+                alt="Progress analytics screen with charts and PR trends"
+                loading="lazy"
+              />
+            </div>
+            <h3>Progress View</h3>
+            <p>Charts, PR timeline, and trend visibility over time.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="container section-block cta-band">
+        <h2>Built for lifters who care about progression</h2>
+        <p>
+          Proventus keeps the logging flow quick while giving you enough context to improve every week.
+        </p>
       </section>
     </main>
 
-    <footer class="container">© 2026 Proventus</footer>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 Proventus</p>
+        <nav class="footer-links" aria-label="Legal">
+          <a href="privacy/">Privacy Policy</a>
+          <a href="terms/">Terms of Service</a>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
