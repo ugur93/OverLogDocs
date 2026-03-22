@@ -5,14 +5,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Product | OverLog</title>
+  <meta name="description"
+    content="OverLog product overview — workout tracking, progress insights, custom programs, Apple Watch, and Apple Health integration." />
   <link rel="stylesheet" href="../assets/styles.css" />
 </head>
 
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="../">OverLog</a>
-      <nav class="nav">
+      <a class="brand brand-icon" href="../">
+        <span class="brand-dot"></span>
+        OverLog
+      </a>
+      <nav class="nav" aria-label="Primary">
         <a href="../">Home</a>
         <a class="active" href="./">Product</a>
         <a href="../privacy/">Privacy</a>
@@ -22,49 +27,91 @@
   </header>
 
   <main>
-    <section class="container hero">
-      <p class="eyebrow">Product Overview</p>
-      <h1>Built for Consistency</h1>
-      <p>
-        A focused workout tracker designed for consistency, progression visibility, and optional ecosystem integrations.
-      </p>
+    <section class="container hero" style="padding-bottom: 40px;">
+      <div style="max-width: 700px; margin: 0 auto; text-align: center;">
+        <span class="section-label">Product Overview</span>
+        <h1 class="hero-title" style="font-size: clamp(2.25rem, 4.5vw, 3.25rem);">
+          Built for <span class="green">Consistency</span>
+        </h1>
+        <p class="hero-description" style="max-width: 100%; margin-left: auto; margin-right: auto;">
+          A focused workout tracker designed for progressive overload, consistency tracking, and optional ecosystem integrations. No noise — just the tools you need to get stronger.
+        </p>
+      </div>
     </section>
 
-    <section class="container">
-      <div class="feature-highlights">
-        <article class="highlight-card">
-          <div class="icon-box">🏋️</div>
-          <h3>Workout Tracking</h3>
-          <p>Log exercises, sets, reps, loads, rest periods, and notes with a flow optimized for active sessions.</p>
-        </article>
-        <article class="highlight-card">
-          <div class="icon-box">📊</div>
-          <h3>Progress Insights</h3>
-          <p>Review history, monitor volume trends, and identify PR opportunities over time.</p>
-        </article>
-        <article class="highlight-card">
-          <div class="icon-box">📝</div>
-          <h3>Program Flexibility</h3>
-          <p>Create and adapt custom programs and exercise libraries based on your training style.</p>
-        </article>
-        <article class="highlight-card">
-          <div class="icon-box">🍎</div>
-          <h3>Apple Integrations</h3>
-          <p>Optionally sync with HealthKit and iCloud depending on your permissions and device setup.</p>
-        </article>
+    <section class="section" style="padding-top: 40px;">
+      <div class="container">
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-icon">&#127947;</div>
+            <h3>Workout Tracking</h3>
+            <p>Log exercises, sets, reps, weight, rest periods, and notes with a flow optimized for active sessions. See your previous performance on every set.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">&#128200;</div>
+            <h3>Progress Insights</h3>
+            <p>Review history, monitor volume trends, and identify PR opportunities. Filter by time period and rep range for every exercise.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">&#128221;</div>
+            <h3>Program Flexibility</h3>
+            <p>Create custom programs with any structure. 17 built-in programs from beginner to advanced, or generate one with AI.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">&#9201;</div>
+            <h3>Apple Watch</h3>
+            <p>Log sets, switch exercises, and run rest timers directly from your wrist. Real-time sync with your iPhone.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">&#127822;</div>
+            <h3>Apple Integrations</h3>
+            <p>Sync completed workouts to Apple Health. Back up your data with iCloud. Close your rings automatically.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">&#128274;</div>
+            <h3>Your Data, Your Control</h3>
+            <p>All data stored locally. No account needed. Export to JSON or CSV anytime. No ads, no tracking.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container section-center">
+        <div class="cta-band">
+          <h2 class="section-title">Ready to try it?</h2>
+          <p class="section-subtitle">
+            Download OverLog for free and start logging your first workout in under a minute.
+          </p>
+          <a class="btn-appstore"
+            href="https://apps.apple.com/us/app/overlog-workout-tracker/id6759111495"
+            target="_blank" rel="noopener">
+            <svg class="btn-appstore-icon" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 21.99 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.1 21.99C7.79 22.03 6.8 20.68 5.96 19.47C4.25 16.99 2.97 12.5 4.7 9.48C5.55 7.98 7.14 7.04 8.82 7.02C10.1 7 11.29 7.88 12.05 7.88C12.81 7.88 14.24 6.82 15.8 7C16.46 7.03 18.25 7.26 19.4 8.93C19.29 9 16.61 10.51 16.64 13.58C16.68 17.28 20.04 18.45 20.07 18.46C20.04 18.52 19.54 20.17 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z" />
+            </svg>
+            <span class="btn-appstore-text">
+              <span class="btn-appstore-label">Download on the</span>
+              <span class="btn-appstore-store">App Store</span>
+            </span>
+          </a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <div style="display: flex; align-items: center; gap: 12px;">
-        <span class="brand" style="font-size: 1rem;">OverLog</span>
-        <span style="color: var(--muted); font-size: 0.9rem;">© 2026</span>
+      <div class="footer-brand">
+        <a class="brand brand-icon" href="../">
+          <span class="brand-dot"></span>
+          OverLog
+        </a>
+        <span class="footer-copy">&copy; 2026</span>
       </div>
       <nav class="footer-links" aria-label="Legal">
-        <a href="../privacy/">Privacy</a>
-        <a href="../terms/">Terms</a>
+        <a href="mailto:overlogapp@proton.me">Contact</a>
+        <a href="../privacy/">Privacy Policy</a>
+        <a href="../terms/">Terms of Service</a>
       </nav>
     </div>
   </footer>

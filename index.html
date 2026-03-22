@@ -4,133 +4,370 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>OverLog - Train Smarter, Lift Heavier</title>
+  <title>OverLog — Progressive Overload Tracker for iPhone & Apple Watch</title>
   <meta name="description"
-    content="OverLog is the workout tracker built for progressive overload. Log sets fast, track PRs, and see meaningful progress over time." />
+    content="OverLog tracks your progressive overload so you always know what to lift next. 900+ exercises, 17 built-in programs, Apple Watch companion. No account needed." />
+  <meta property="og:title" content="OverLog — Train Smarter. Lift Heavier." />
+  <meta property="og:description"
+    content="The workout tracker built for progressive overload. Log sets fast, track PRs, and see meaningful progress over time." />
+  <meta property="og:type" content="website" />
   <link rel="stylesheet" href="assets/styles.css" />
-  <!-- Preload font if possible, using standard fonts for now -->
 </head>
 
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="./">OverLog</a>
+      <a class="brand brand-icon" href="./">
+        <span class="brand-dot"></span>
+        OverLog
+      </a>
       <nav class="nav" aria-label="Primary">
         <a class="active" href="./">Home</a>
         <a href="#features">Features</a>
         <a href="#screens">Screens</a>
-        <a href="product/">Product</a>
+        <a href="#watch">Watch</a>
+        <a href="#pricing">Pricing</a>
       </nav>
     </div>
   </header>
 
   <main>
+    <!-- ======== Hero ======== -->
     <section class="container hero">
-      <p class="eyebrow">Progressive Overload Made Simple</p>
-      <h1>Train Smarter.<br />Lift Heavier.</h1>
-      <p>
-        OverLog is built for lifters who care about results. No account required.
-        Log sets fast, visualize your gains, and hit new PRs.
-      </p>
-      <div class="cta-row">
-        <a class="button primary" href="#screens">See It In Action</a>
-        <a class="button ghost" href="product/">View Features</a>
-      </div>
+      <div class="hero-grid">
+        <div class="hero-content">
+          <span class="section-label">Progressive Overload Tracker</span>
+          <h1 class="hero-title">
+            Train Smarter.<br /><span class="green">Lift Heavier.</span>
+          </h1>
+          <p class="hero-description">
+            OverLog shows what you lifted last time and what to aim for next.
+            900+ exercises, 17 built-in programs, and an Apple Watch companion app.
+            No account needed — just log and get stronger.
+          </p>
+          <div class="hero-actions">
+            <a class="btn-appstore"
+              href="https://apps.apple.com/us/app/overlog-workout-tracker/id6759111495"
+              target="_blank" rel="noopener">
+              <svg class="btn-appstore-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 21.99 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.1 21.99C7.79 22.03 6.8 20.68 5.96 19.47C4.25 16.99 2.97 12.5 4.7 9.48C5.55 7.98 7.14 7.04 8.82 7.02C10.1 7 11.29 7.88 12.05 7.88C12.81 7.88 14.24 6.82 15.8 7C16.46 7.03 18.25 7.26 19.4 8.93C19.29 9 16.61 10.51 16.64 13.58C16.68 17.28 20.04 18.45 20.07 18.46C20.04 18.52 19.54 20.17 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z" />
+              </svg>
+              <span class="btn-appstore-text">
+                <span class="btn-appstore-label">Download on the</span>
+                <span class="btn-appstore-store">App Store</span>
+              </span>
+            </a>
+            <a class="btn btn-secondary" href="#features">See Features</a>
+          </div>
+        </div>
 
-      <div class="feature-highlights">
-        <article class="highlight-card">
-          <div class="icon-box">⚡️</div>
-          <h3>Simple Logging</h3>
-          <p>Log weight, reps, and RPE with zero friction so you can focus on the set.</p>
-        </article>
-        <article class="highlight-card">
-          <div class="icon-box">📈</div>
-          <h3>Real Progression</h3>
-          <p>Visualize 1RM trends and volume to ensure you're improving every week.</p>
-        </article>
-        <article class="highlight-card">
-          <div class="icon-box">🔒</div>
-          <h3>Privacy First</h3>
-          <p>No account needed. Your data lives on your device, not our servers.</p>
-        </article>
+        <div class="hero-visual">
+          <div class="phone phone-float">
+            <div class="phone-glow"></div>
+            <div class="phone-screen">
+              <img src="assets/screens/workout-session.png" alt="OverLog workout logging screen showing set tracking with weight suggestions and plate calculator" />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="features" class="container section-block">
-      <div class="section-heading">
-        <h2>Everything you need to grow</h2>
+    <!-- ======== Features ======== -->
+    <section id="features" class="section">
+      <div class="container section-center">
+        <span class="section-label">Why OverLog</span>
+        <h2 class="section-title">Everything you need to grow</h2>
+        <p class="section-subtitle">
+          Built for lifters who want to track progress, not fiddle with an app. Log sets fast, see what to lift next, and move on.
+        </p>
       </div>
 
-      <div class="feature-highlights" style="margin-top: 40px;"> <!-- Reusing grid layout -->
-        <article class="highlight-card">
-          <h3>Custom Programs</h3>
-          <p>Build unlimited routines with custom weeks, days, and exercise formatting.</p>
-        </article>
-        <article class="highlight-card">
-          <h3>Advanced Set Types</h3>
-          <p>Track Drop Sets, Warmups, Myorette, and Failure sets accurately.</p>
-        </article>
-        <article class="highlight-card">
-          <h3>Plate Calculator</h3>
-          <p>Built-in tools to do the math for you instantly during your workout.</p>
-        </article>
-        <article class="highlight-card">
-          <h3>Apple Health</h3>
-          <p>Seamlessly write workout data to Apple Health and close your rings.</p>
-        </article>
-        <article class="highlight-card">
-          <h3>Export & Import data</h3>
-          <p>Export your data as JSON or CSV and import it back anytime.</p>
-        </article>
+      <div class="container">
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-icon">&#9889;</div>
+            <h3>Progressive Overload</h3>
+            <p>Every set shows your previous performance. OverLog suggests your next weight so you spend less time thinking and more time lifting.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">&#127942;</div>
+            <h3>Automatic PR Tracking</h3>
+            <p>Heaviest weight, most reps, best estimated 1RM, and total volume — tracked automatically. You know the moment you hit a new record.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">&#128200;</div>
+            <h3>Progress Charts</h3>
+            <p>Detailed charts for every exercise. Filter by time period, rep range, and see your strength trending over weeks and months.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">&#128221;</div>
+            <h3>Custom Programs</h3>
+            <p>Build routines with custom weeks, days, and exercises. Configure sets, reps, rest times, AMRAP, dropsets, and tempo tags.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">&#9201;</div>
+            <h3>Rest Timer & Plate Calc</h3>
+            <p>Built-in rest timer with haptic alerts and a plate calculator that shows exactly which plates to load on each side.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">&#128274;</div>
+            <h3>Privacy First</h3>
+            <p>No account needed. All data stored locally on your device. Optional iCloud backup and Apple Health sync for Pro users.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">&#9757;</div>
+            <h3>Live Activity</h3>
+            <p>Your active workout shows on Dynamic Island and Lock Screen. See your current exercise and set count without opening the app.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">&#128640;</div>
+            <h3>AI Program Builder</h3>
+            <p>Don't want to build from scratch? Describe what you want and OverLog generates a complete program using AI.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">&#127775;</div>
+            <h3>Share Your Wins</h3>
+            <p>Hit a new PR? Share a clean visual summary of your session with PRs, volume, and duration to your story or friends.</p>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section id="screens" class="container section-block">
-      <div class="section-heading">
-        <h2>Built for the gym floor</h2>
+    <!-- ======== Screenshots ======== -->
+    <section id="screens" class="section">
+      <div class="container section-center">
+        <span class="section-label">App Screens</span>
+        <h2 class="section-title">Built for the gym floor</h2>
+        <p class="section-subtitle">
+          Dark interface designed for visibility between sets. Everything you need is one tap away.
+        </p>
       </div>
-      <div class="app-preview-grid">
-        <article class="shot-card">
-          <div class="shot-frame">
-            <img src="assets/screens/home-dashboard.png" alt="Home dashboard showing workout summary" loading="lazy" />
-          </div>
-          <h3>Dashboard</h3>
-          <p>Your weekly volume and upcoming sessions at a glance.</p>
-        </article>
-        <article class="shot-card">
-          <div class="shot-frame">
-            <img src="assets/screens/workout-session.png" alt="Active workout session logging screen" loading="lazy" />
-          </div>
-          <h3>Log sets</h3>
-          <p>Log weight, reps, and RPE with zero friction so you can focus on the set.</p>
-        </article>
-        <article class="shot-card">
-          <div class="shot-frame">
-            <img src="assets/screens/progress-analytics.png" alt="Progress analytics charts" loading="lazy" />
-          </div>
-          <h3>Analytics</h3>
-          <p>Track your strength and hypertrophy trends over time.</p>
-        </article>
+
+      <div class="container">
+        <div class="screens-row">
+          <article class="screen-item">
+            <div class="phone">
+              <div class="phone-screen">
+                <img src="assets/screens/home-dashboard.png" alt="Dashboard showing workout stats, volume, and training calendar" loading="lazy" />
+              </div>
+            </div>
+            <h3>Dashboard</h3>
+            <p>Stats, volume, streak, and a calendar marking every training day.</p>
+          </article>
+          <article class="screen-item">
+            <div class="phone">
+              <div class="phone-screen">
+                <img src="assets/screens/workout-session.png" alt="Active workout session with set logging and plate calculator" loading="lazy" />
+              </div>
+            </div>
+            <h3>Log Sets</h3>
+            <p>Previous performance, suggested weight, and plate layout — all in one screen.</p>
+          </article>
+          <article class="screen-item">
+            <div class="phone">
+              <div class="phone-screen">
+                <img src="assets/screens/progress-analytics.png" alt="Exercise analytics with PR cards and strength trend charts" loading="lazy" />
+              </div>
+            </div>
+            <h3>Analytics</h3>
+            <p>Track your 1RM, best sets, and volume trends over time for every exercise.</p>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section class="container cta-band">
-      <h2>Start progressing today</h2>
-      <p>
-        Join thousands of lifters who stopped guessing and started progressing.
-        <br>Download OverLog and crush your goals.
-      </p>
+    <!-- ======== Apple Watch ======== -->
+    <section id="watch" class="section">
+      <div class="container">
+        <div class="watch-grid">
+          <div>
+            <span class="section-label">Apple Watch</span>
+            <h2 class="section-title">Your workout,<br />on your wrist</h2>
+            <p class="section-subtitle">
+              The OverLog companion app syncs your active workout to Apple Watch in real time. Log sets, switch exercises, and run rest timers without pulling out your phone.
+            </p>
+            <ul class="watch-features">
+              <li>
+                <span class="watch-feature-icon">&#9997;</span>
+                <span>Log sets with weight and reps directly from your wrist</span>
+              </li>
+              <li>
+                <span class="watch-feature-icon">&#128260;</span>
+                <span>Switch between exercises as you move through your workout</span>
+              </li>
+              <li>
+                <span class="watch-feature-icon">&#9201;</span>
+                <span>Start and track rest timers with haptic alerts on your wrist</span>
+              </li>
+              <li>
+                <span class="watch-feature-icon">&#128259;</span>
+                <span>Real-time sync — everything you log appears on your phone instantly</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="watch-visual">
+            <!--
+              WATCH SCREENSHOT GUIDE:
+              Replace the .watch-placeholder div below with an <img> tag.
+
+              Recommended screenshot:
+              - Take a screenshot of WatchWorkoutView or WatchSetLoggingView
+                showing an active workout with exercise name, set count,
+                and weight/reps controls visible.
+              - Apple Watch screenshot resolution: 396×484 (45mm) or 368×448 (41mm)
+              - Save as: assets/screens/watch-workout.png
+
+              Then replace the watch-screen contents:
+              <div class="watch-screen">
+                <img src="assets/screens/watch-workout.png"
+                     alt="OverLog Apple Watch companion showing active workout set logging" />
+              </div>
+            -->
+            <div class="watch">
+              <div class="watch-screen">
+                <div class="watch-placeholder">
+                  <span class="watch-placeholder-icon">&#9201;</span>
+                  <span>Watch screenshot<br />goes here</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== Programs ======== -->
+    <section id="programs" class="section">
+      <div class="container">
+        <span class="section-label">Built-in Programs</span>
+        <h2 class="section-title">17 programs ready to go</h2>
+        <p class="section-subtitle">
+          Start training immediately with proven programs. From beginner to advanced, 2 days to 6 days a week.
+        </p>
+
+        <div class="programs-showcase">
+          <span class="program-pill"><span class="program-pill-dot"></span>StrongLifts 5x5</span>
+          <span class="program-pill"><span class="program-pill-dot"></span>Push Pull Legs</span>
+          <span class="program-pill"><span class="program-pill-dot"></span>Upper / Lower Split</span>
+          <span class="program-pill"><span class="program-pill-dot"></span>Full Body Foundation</span>
+          <span class="program-pill"><span class="program-pill-dot"></span>5/3/1 Strength</span>
+          <span class="program-pill"><span class="program-pill-dot"></span>Advanced Hypertrophy</span>
+          <span class="program-pill"><span class="program-pill-dot"></span>Bodyweight Foundation</span>
+          <span class="program-pill"><span class="program-pill-dot"></span>Beach Body Split</span>
+          <span class="program-pill"><span class="program-pill-dot"></span>Summer Shredder</span>
+          <span class="program-pill"><span class="program-pill-dot"></span>Kettlebell Strength</span>
+          <span class="program-pill"><span class="program-pill-dot"></span>Smith Machine Full Body</span>
+          <span class="program-pill"><span class="program-pill-dot"></span>Glute &amp; Lower Body Focus</span>
+          <span class="program-pill"><span class="program-pill-dot"></span>Minimalist 2-Day</span>
+          <span class="program-pill"><span class="program-pill-dot"></span>45-Minute Busy Week</span>
+          <span class="program-pill"><span class="program-pill-dot"></span>Beginner PPL</span>
+          <span class="program-pill"><span class="program-pill-dot"></span>Advanced PPL</span>
+          <span class="program-pill"><span class="program-pill-dot"></span>Hybrid Upper/Lower + Conditioning</span>
+        </div>
+
+        <div class="programs-stats">
+          <div class="programs-stat">
+            <span class="programs-stat-value">905+</span>
+            <span class="programs-stat-label">Exercises</span>
+          </div>
+          <div class="programs-stat">
+            <span class="programs-stat-value">17</span>
+            <span class="programs-stat-label">Built-in programs</span>
+          </div>
+          <div class="programs-stat">
+            <span class="programs-stat-value">2–6</span>
+            <span class="programs-stat-label">Days per week</span>
+          </div>
+          <div class="programs-stat">
+            <span class="programs-stat-value">&infin;</span>
+            <span class="programs-stat-label">Custom programs</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== Pricing ======== -->
+    <section id="pricing" class="section">
+      <div class="container section-center">
+        <span class="section-label">Pricing</span>
+        <h2 class="section-title">Free to start. Pro when you're ready.</h2>
+        <p class="section-subtitle">
+          Everything you need to train is free. Pro unlocks the full toolkit when you want more.
+        </p>
+      </div>
+
+      <div class="container">
+        <div class="pricing-grid">
+          <div class="pricing-card">
+            <h3 class="pricing-tier">Free</h3>
+            <p class="pricing-price">No account needed</p>
+            <ul class="pricing-list">
+              <li><span class="pricing-check">&#10003;</span>Unlimited workout logging</li>
+              <li><span class="pricing-check">&#10003;</span>All 905+ exercises</li>
+              <li><span class="pricing-check">&#10003;</span>17 built-in programs</li>
+              <li><span class="pricing-check">&#10003;</span>Progress charts &amp; history</li>
+              <li><span class="pricing-check">&#10003;</span>PR tracking</li>
+              <li><span class="pricing-check">&#10003;</span>Live Activity</li>
+              <li><span class="pricing-check">&#10003;</span>Apple Watch companion</li>
+              <li><span class="pricing-check">&#10003;</span>Rest timer &amp; haptics</li>
+            </ul>
+          </div>
+          <div class="pricing-card featured">
+            <span class="pricing-badge">FULL TOOLKIT</span>
+            <h3 class="pricing-tier">Pro</h3>
+            <p class="pricing-price">Unlock everything</p>
+            <ul class="pricing-list">
+              <li><span class="pricing-check">&#10003;</span>Everything in Free</li>
+              <li><span class="pricing-check">&#10003;</span>Unlimited custom programs</li>
+              <li><span class="pricing-check">&#10003;</span>Advanced set types (AMRAP, dropsets, tags)</li>
+              <li><span class="pricing-check">&#10003;</span>Plate calculator</li>
+              <li><span class="pricing-check">&#10003;</span>Extended analytics (90+ days)</li>
+              <li><span class="pricing-check">&#10003;</span>Apple Health integration</li>
+              <li><span class="pricing-check">&#10003;</span>iCloud sync &amp; backup</li>
+              <li><span class="pricing-check">&#10003;</span>Data export (JSON &amp; CSV)</li>
+              <li><span class="pricing-check">&#10003;</span>Edit past workouts</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== CTA ======== -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-band">
+          <h2 class="section-title">Start progressing today</h2>
+          <p class="section-subtitle">
+            Stop guessing what to lift. Download OverLog and let your numbers do the talking.
+          </p>
+          <a class="btn-appstore"
+            href="https://apps.apple.com/us/app/overlog-workout-tracker/id6759111495"
+            target="_blank" rel="noopener">
+            <svg class="btn-appstore-icon" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 21.99 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.1 21.99C7.79 22.03 6.8 20.68 5.96 19.47C4.25 16.99 2.97 12.5 4.7 9.48C5.55 7.98 7.14 7.04 8.82 7.02C10.1 7 11.29 7.88 12.05 7.88C12.81 7.88 14.24 6.82 15.8 7C16.46 7.03 18.25 7.26 19.4 8.93C19.29 9 16.61 10.51 16.64 13.58C16.68 17.28 20.04 18.45 20.07 18.46C20.04 18.52 19.54 20.17 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z" />
+            </svg>
+            <span class="btn-appstore-text">
+              <span class="btn-appstore-label">Download on the</span>
+              <span class="btn-appstore-store">App Store</span>
+            </span>
+          </a>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <div style="display: flex; align-items: center; gap: 12px;">
-        <span class="brand" style="font-size: 1rem;">OverLog</span>
-        <span style="color: var(--muted); font-size: 0.9rem;">© 2026</span>
+      <div class="footer-brand">
+        <a class="brand brand-icon" href="./">
+          <span class="brand-dot"></span>
+          OverLog
+        </a>
+        <span class="footer-copy">&copy; 2026</span>
       </div>
-
       <nav class="footer-links" aria-label="Legal">
+        <a href="mailto:overlogapp@proton.me">Contact</a>
         <a href="privacy/">Privacy Policy</a>
         <a href="terms/">Terms of Service</a>
       </nav>
